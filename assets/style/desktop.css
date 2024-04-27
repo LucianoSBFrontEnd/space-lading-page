@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variaves */
+:root {
+    --font-primary: "Poppins", sans-serif;
+    --color-text: #a8bbd4;
+}
+
+body{
+    width: 100%;
+    background-image: url(../img/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin: 0 auto;
+}
+
+.img-logo {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+}
+
+
+
+
+.navegation .navegation-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+
+    list-style: none;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    padding-inline: 150px;
+}
+
+.navegation .navegation-menu a{
+    text-decoration: none;
+    color: #c6c3c3;
+    margin-right: 27px;
+    font-size: 0.9rem;
+
+    display: block;
+    font-family: var(--font-primary);
+    padding: 30px 2px;
+}
+
+#border{
+    border-bottom: 2px solid #e2e2e2;
+}
+
+/* conteúdo */
+
+.container .content{
+    color: white;
+    max-width: 600px;
+    margin: 200px 50px;
+    
+}
+
+.container .content h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    font-weight: 300;
+}
+
+.container .content h3{
+    font-size: 1.2rem;
+    font-family: var(--font-primary);
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+
+.container .content p{
+    color: var(--color-text);
+    font-size: 1.1rem;
+    width: 400px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-explorer{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.logo-explorer h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-text);
+    text-shadow: 1px 1px black;
+    font-size: 2rem;
+}
+
+
+
+
+
