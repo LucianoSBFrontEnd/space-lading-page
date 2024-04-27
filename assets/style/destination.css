@@ -6,22 +6,23 @@
 
 /* variaves */
 :root {
+    --font-secundary:"PT Serif", serif;
     --font-primary: "Poppins", sans-serif;
     --color-text: #839ab9;
+
+
 }
 
 body{
     width: 100%;
-    background-image: url(../img/home/background-home-desktop.jpg);
+    background-image: url(../img/destination/background-destination-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px 0;
-    
 }
 
 .img-desktop{
     cursor: pointer;
-    
 }
 
 .cabecalho {
@@ -76,61 +77,88 @@ body{
 
 /* conteúdo */
 
-.container .content{
-    
-    max-width: 600px;
-    margin: 200px 50px;
-    
-}
 
-.container .content h1{
-    font-size: 6rem;
-    color: var(--color-text);
-    text-shadow: 2px 5px 10px rgb(32, 100, 163);
-    text-transform: uppercase;
-    font-family: var(--font-primary);
-    font-weight: 300;
-}
+.container .content-left{
+    max-width: 1200px;
+    margin: 60px auto;
+    margin-bottom: 0;
+    min-height: 50vh;
 
-.container .content h3{
-    font-size: 1.2rem;
-    font-family: var(--font-primary);
-    color: var(--color-text);
-    text-transform: uppercase;
-}
-
-.container .content p{
-    color: var(--color-text);
-    font-size: 1.1rem;
-    width: 400px;
-    
-}
-
-
-.container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    position: relative;
+    
+    gap: 220px;
 }
 
-.logo-explorer{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #839ab9;
-    position: relative;
+.container .content-left .img-mrs h3{
+    margin-bottom: 30px;
+    color: var(--color-text);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
 }
 
-.logo-explorer h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: ;
-    text-shadow: 1px 1px rgb(0, 0, 0);
+.text-mars-content{
+    color: white;
+}
+
+.content-rigth .mars-menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.content-rigth .mars-menu li{
+    padding: 20px 0 ;
+    color: var(--color-text);
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-mars-content h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family:  sans-serif;
+    font-weight: 100;
+    font-family: var(--font-secundary);
+    font-weight: 100;
+}
+
+.text-mars-content p{
+    font-size: 1.3rem;
+    max-width: 500px;
+    margin: 0 0 30px;
+    font-family: var(--font-primary);
+    font-weight: 200;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+.about-text{
+    display: flex;
+    gap: 70px;
+}
+
+.about-text h3{
     font-size: 2rem;
+    font-family: var(--font-primary);
+    font-weight: 200;
 }
+
+.about-text h4{
+    font-family: var(--font-primary);
+    font-weight: 100;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
 
 
 
